@@ -7,7 +7,6 @@ body {
     color: #333;
 }
 
-/* Başlık stili */
 header {
     background: #35424a;
     color: #ffffff;
@@ -19,7 +18,6 @@ header h1 {
     margin: 0;
 }
 
-/* Navigasyon menüsü */
 nav ul {
     list-style: none;
     padding: 0;
@@ -40,7 +38,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Bölüm stili */
 section {
     padding: 20px;
     margin: 20px auto;
@@ -50,7 +47,6 @@ section {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Proje stili */
 .project {
     margin-bottom: 20px;
     padding: 15px;
@@ -74,7 +70,6 @@ section {
     margin-top: 10px;
 }
 
-/* Form stili */
 form {
     display: flex;
     flex-direction: column;
@@ -106,7 +101,6 @@ form input[type="submit"]:hover {
     background: #2c3e50;
 }
 
-/* Footer stili */
 footer {
     text-align: center;
     padding: 10px 0;
