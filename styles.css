@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 nav ul {
@@ -17,26 +19,51 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
-.project {
-    background: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-.project img {
-    max-width: 100%; /* Resmin genişliğini %100'e ayarlayın */
-    height: auto; /* Yükseklik otomatik olarak ayarlanacak */
+section {
+    padding: 20px;
 }
 
 footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #777;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
 }
 
