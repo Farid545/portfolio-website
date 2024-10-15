@@ -1,15 +1,26 @@
+/* Genel stil ayarları */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
+/* Başlık stili */
 header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
+header h1 {
+    margin: 0;
+}
+
+/* Navigasyon menüsü */
 nav ul {
     list-style: none;
     padding: 0;
@@ -17,31 +28,95 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Bölüm stili */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Proje stili */
 .project {
-    background: #fff;
-    padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
 }
 
 .project h3 {
-    margin-top: 0; /* Başlıkların üstündeki boşluğu kaldır */
+    margin: 0;
+    color: #35424a;
 }
 
 .project img {
-    max-width: 100%; /* Resmin genişliğini %100'e ayarlayın */
-    height: auto; /* Yükseklik otomatik olarak ayarlanacak */
+    max-width: 100%; /* Resmin genişliğini sınırlandır */
+    height: auto;    /* Yüksekliği orantılı ayarla */
+    border-radius: 5px;
 }
 
+.project p {
+    margin-top: 10px;
+}
+
+/* Form stili */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #35424a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background: #2c3e50;
+}
+
+/* Footer stili */
 footer {
     text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #777;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
 
 
