@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "edge",
+            "request": "launch",
+            "name": "Launch Edge",
+            "url": "https://farid545.github.io/portfolio-website/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
